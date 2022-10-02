@@ -39,7 +39,7 @@ This is the circuit for the example code above. It uses the
 ![Fritzing wiring for the example code.](images/HTU21D.png "Fritzing")
 
 ## Customizing configuration
-The default settings uses a 12 bits resolution for the relative humidity and a 14 bits resolution for the temperature.
+The default settings use a 12 bits resolution for the relative humidity and a 14 bits resolution for the temperature.
 The heater is disabled and the measurements include the CRC results.
 
 The next example uses a customized configuration:
