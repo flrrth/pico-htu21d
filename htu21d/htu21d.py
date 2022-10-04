@@ -26,9 +26,7 @@ class HTU21D:
 
     def reset(self):
         """Reset the HTU21D."""
-        txdata = bytearray(1)
-        txdata[0] = 0xFE
-        self._i2c.writeto(self._address, txdata)
+        self._i2c.writeto(self._address, b'\xFE')
         sleep_ms(15)
         
     @property
